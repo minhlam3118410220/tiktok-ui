@@ -1,0 +1,103 @@
+.homepage {
+    width: 680px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    border-bottom: 1px solid #e3e3e4;
+}
+.wrapper {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 750px;
+}
+.avatar {
+    max-width: 54px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.info {
+    margin-left: 10px;
+}
+.id {
+    display: inline-flex;
+}
+.nickname {
+    margin-top: 2px;
+    margin-left: 5px;
+    font-size: 1.8rem;
+    color: #161823;
+    font-family: var(--font-family);
+    line-height: 1;
+
+    :hover {
+        text-decoration: underline;
+        cursor: pointer;
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+.name {
+    margin-left: 5px;
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+    opacity: #161823bf;
+}
+.content {
+    margin-left: 5px;
+    font-family: var(--font-family);
+    font-size: 1.6rem;
+}
+.musicbox {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+}
+.musicicon {
+    margin-top: 4px;
+}
+.musicname {
+    margin-left: 20px;
+    font-family: var(--font-family);
+    :hover {
+        text-decoration: underline;
+        cursor: pointer;
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+.btn {
+    max-width: 200px;
+    margin-left: 200px;
+}
+
+.videobox {
+    display: flex;
+    flex-direction: row;
+}
+.video {
+    width: 52%;
+    max-height: 550px;
+    margin-top: 4px;
+    margin-left: 50px;
+}
+.videoact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 340px;
+    margin-right: 100px;
+}
+.iconbg {
+    margin-top: 3px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(234, 233, 233);
+}
+.num {
+    text-align: center;
+}
